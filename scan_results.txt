@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Mon Aug  4 09:58:36 2025 as: /usr/lib/nmap/nmap --privileged -sV -sS -Pn -oN scan_results.txt 192.168.174.1
+Nmap scan report for 192.168.174.1
+Host is up (2.0s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE         VERSION
+135/tcp open     msrpc           Microsoft Windows RPC
+139/tcp open     netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp open     microsoft-ds?
+514/tcp filtered shell
+903/tcp open     ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  4 10:01:30 2025 -- 1 IP address (1 host up) scanned in 173.17 seconds
